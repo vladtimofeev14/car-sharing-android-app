@@ -13,5 +13,5 @@ data class Listing (
     val createdByUID: String = "",
     val latitude: Double = 0.0,
     val longitude: Double = 0.0,
-    var isBooked: Boolean = false
+    var isBooked: Boolean = false//
 )
