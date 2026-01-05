@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Confirmation Code -->
+    <TextView
+        android:id="@+id/my_booking_confirmation_textview"
+        android:text="WR2507"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Brand and Model -->
+    <TextView
+        android:id="@+id/my_booking_brand_model_textview"
+        android:text="Tesla Model 3"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Color -->
+    <TextView
+        android:id="@+id/my_booking_color_textview"
+        android:text="Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Address & City -->
+    <TextView
+        android:id="@+id/my_booking_address_city_textview"
+        android:text="123 Main St, Winnipeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Rent Dates -->
+    <TextView
+        android:id="@+id/my_booking_dates_textview"
+        android:text="Jan 6, 2024 — Jan 10, 2024"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/my_booking_cancel_button"
+        android:text="Cancel Booking"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MyListingsActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Listings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/no_listings_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No listings yet"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_listings_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/add_listing_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Listing" />
+
+    <Button
+        android:id="@+id/go_to_bookings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Bookings" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CreateListingActivity">
+
+    <TextView
+        android:id="@+id/car_profile_license_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCD999"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/car_profile_image_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="Car image"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:id="@+id/car_profile_brand_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tesla"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/car_profile_model_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model 3"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="start"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/car_profile_color_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color: Black"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/car_profile_owner_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner: Jon Snow"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/car_profile_cost_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost per day: $100.00"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:layout_gravity="start"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/car_profile_start_date_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start" />
+    <EditText
+        android:id="@+id/car_profile_end_date_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End" />
+
+    <Button
+        android:id="@+id/car_profile_book_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Book now" />
+
+
+
+</LinearLayout>
